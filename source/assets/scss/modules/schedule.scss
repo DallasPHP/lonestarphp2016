@@ -5,7 +5,7 @@ $juniper: #ba2e53;
 
 .schedule { margin-bottom: 1rem; }
 .schedule-row > .schedule-session {
-  background: #eee;
+  background: rgba(240, 240, 240, 0.5);
   font-size: 0.9rem;
   &:hover { background: rgba(255, 247, 188, 0.1); }
 }
