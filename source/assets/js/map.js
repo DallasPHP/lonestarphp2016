@@ -86,9 +86,9 @@ function initialize() {
     );
 
     addHotelMarker(
-        "Hawthorn Suites",
-        new google.maps.LatLng(32.956447, -96.829499),
-        "http://www.hawthorn.com/hotels/texas/addison/hawthorn-suites-by-wyndham-addison-galleria/hotel-overview",
+        "Radisson Hotel Dallas North",
+        new google.maps.LatLng(32.958204, -96.826842),
+        "http://hotels.radisson.com/tx/addison/hotels_addison_tx_usadntx.html",
         map
     );
 
