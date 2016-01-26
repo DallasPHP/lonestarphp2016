@@ -6,6 +6,7 @@
   @include media-query(palm) {
     margin-left: 0;
     text-align: center;
+    justify-content: center;
   }
 }
 .h-speaker {
@@ -17,19 +18,16 @@
 }
 .speaker__photo {
   background: #c4c4c4 url('/assets/img/missing-photo.png') center bottom no-repeat;
-  margin: 0.5rem;
+  margin: 0 0.75rem 0.75rem;
   height: 225px;
-  width: 225px;
+  min-width: 225px;
+  max-width: 225px;
   border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .speaker__body {
-  float: right;
-  width: 78%;
   font-size: 90%;
   @include media-query(palm) {
     text-align: left;
-    float: none;
-    width: 100%;
   }
 }
 .speaker__body > a {
